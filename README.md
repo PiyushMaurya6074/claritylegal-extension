@@ -46,6 +46,9 @@ ClarityLegal is a Chrome extension that analyzes Terms & Conditions, privacy pol
 3. ⚡ Click **Analyze** in the popup
 4. 🧾 Review the risk summary and flagged clauses
 
+## 🔗 Live Demo
+
+[Try it here] (https://clarity-legal-ai-d42fc679.base44.app/)
 ---
 
 ## 🗺️ Roadmap
