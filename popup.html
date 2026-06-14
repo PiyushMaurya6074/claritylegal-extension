@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; padding: 10px; width: 300px; }
+    #riskMeter { height: 20px; border: 1px solid #000; margin-bottom: 10px; }
+    li { margin: 5px 0; }
+    .hidden-fee { font-weight: bold; color: red; }
+    button { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Scan Terms & Conditions?</h3>
+  <button id="scanYes">Yes</button>
+  <button id="scanNo">No</button>
+  <div id="result" style="display:none;">
+    <h4>Summary</h4>
+    <p id="summary"></p>
+    <h4>Risk Meter</h4>
+    <div id="riskMeter"></div>
+    <h4>Key Points</h4>
+    <ul id="keyPoints"></ul>
+    <h4>Hidden Fees</h4>
+    <p id="hiddenFees"></p>
+    <button id="close">Close</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
